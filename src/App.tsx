@@ -8,6 +8,8 @@ function App() {
     <div>
       <button onClick={() => setTheme?.("dark")}>Dark Theme</button>
       <button onClick={() => setTheme?.("light")}>Light Theme</button>
+      <p>Test</p>
+      <h1>Test</h1>
     </div>
   );
 }

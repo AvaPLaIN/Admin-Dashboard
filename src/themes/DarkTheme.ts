@@ -14,8 +14,6 @@ const DarkTheme = {
   theme: {
     main: "purple",
   },
-  backgroundColor: "#282c36",
-  color: "#fff",
 };
 
 export default DarkTheme;
