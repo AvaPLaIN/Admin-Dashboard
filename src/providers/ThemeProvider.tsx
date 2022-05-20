@@ -18,12 +18,14 @@ type ThemesProps = typeof LightTheme | typeof DarkTheme;
 
 // Theme Context Props
 interface ThemeContextProps {
-  theme?: ThemesProps;
+  theme: ThemesProps;
   setTheme?: (newTheme: ThemeProps) => void;
 }
 
 //* Theme Context
-export const ThemeContext = React.createContext<ThemeContextProps>({});
+export const ThemeContext = React.createContext<ThemeContextProps>({
+  theme: LightTheme,
+});
 
 //* Interfaces / Types
 interface ThemeProviderProps {
