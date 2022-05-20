@@ -1,7 +1,7 @@
 //* Dark Theme
 
 const DarkTheme = {
-  backgroundColor: "#000",
+  backgroundColor: "#282c36",
   color: "#fff",
 };
 
