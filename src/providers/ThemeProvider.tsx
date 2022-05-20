@@ -5,7 +5,7 @@ import LightTheme from "../themes/LightTheme";
 
 //* Theme Props
 type ThemeProps = "light" | "dark";
-type ThemesProps = typeof LightTheme | typeof DarkTheme;
+export type ThemesProps = typeof LightTheme | typeof DarkTheme;
 
 // Theme Context Props
 interface ThemeContextProps {
