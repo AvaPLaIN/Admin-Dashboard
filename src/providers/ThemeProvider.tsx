@@ -1,16 +1,7 @@
 import React, { useCallback, useState } from "react";
 import { ThemeProvider as Theme } from "styled-components";
-
-//* Themes
-const LightTheme = {
-  backgroundColor: "#fff",
-  color: "#000",
-};
-
-const DarkTheme = {
-  backgroundColor: "#000",
-  color: "#fff",
-};
+import DarkTheme from "../themes/DarkTheme";
+import LightTheme from "../themes/LightTheme";
 
 //* Theme Props
 type ThemeProps = "light" | "dark";
