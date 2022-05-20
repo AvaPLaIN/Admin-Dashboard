@@ -7,7 +7,7 @@ function App() {
 
   return (
     <Background>
-      <button onClick={() => setTheme("dark")}>Toggle Theme</button>
+      <button onClick={() => setTheme?.("dark")}>Toggle Theme</button>
     </Background>
   );
 }
