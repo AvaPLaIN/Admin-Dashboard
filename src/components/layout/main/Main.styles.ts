@@ -23,17 +23,21 @@ export const MainContainer = styled.div`
     height: 5rem;
     width: 15rem;
     background-color: ${(props) => props.theme.background.secondary};
-    box-shadow: ${(props) => props.theme.shadows.secondary};
+    box-shadow: ${(props) => props.theme.shadow.main};
   }
 
   .tertiary-bg-color {
     height: 5rem;
     width: 15rem;
     background-color: ${(props) => props.theme.background.tertiary};
-    box-shadow: ${(props) => props.theme.shadows.tertiary};
+    box-shadow: ${(props) => props.theme.shadow.secondary};
   }
 
   .theme-color {
-    color: ${(props) => props.theme.theme.main};
+    height: 5rem;
+    width: 15rem;
+    background-color: ${(props) => props.theme.theme.main};
+    color: ${(props) => props.theme.font.white};
+    box-shadow: ${(props) => props.theme.shadow.main};
   }
 `;

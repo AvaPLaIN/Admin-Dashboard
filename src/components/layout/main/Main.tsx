@@ -9,7 +9,9 @@ const Main = () => {
       <div className="secondary-bg-color">Secondary Background Color</div>
       <div className="tertiary-bg-color">Tertiary Background Color</div>
 
-      <div className="theme-color">Theme Color</div>
+      <div className="theme-color">
+        <p>Theme Color</p>
+      </div>
     </MainContainer>
   );
 };

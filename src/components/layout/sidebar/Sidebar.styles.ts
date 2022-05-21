@@ -9,14 +9,13 @@ export const SidebarContainer = styled.div<SidebarProps>`
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   height: 100vh;
   width: ${(props) => (props.isOpen ? "22rem" : "0")};
   overflow: hidden;
 
-  border-right: 1px solid black;
+  border-right: 1px solid
+    ${(props) => (props.isOpen ? props.theme.border.main : "0")};
 
-  transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, border-right 0.3s ease-in-out;
 `;

@@ -1,3 +1,5 @@
+import Categories from "./components/categories/Categories";
+import Header from "./components/header/Header";
 import { SidebarContainer } from "./Sidebar.styles";
 
 interface SidebarProps {
@@ -8,8 +10,8 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, toggleSidebar }) => {
   return (
     <SidebarContainer isOpen={isSidebarOpen}>
-      <h1>Sidebar</h1>
-      <button onClick={toggleSidebar}>Close</button>
+      <Header toggleSidebar={toggleSidebar} />
+      <Categories />
     </SidebarContainer>
   );
 };
