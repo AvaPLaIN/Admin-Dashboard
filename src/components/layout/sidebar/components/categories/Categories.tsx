@@ -51,13 +51,13 @@ const Category: React.FC<CategoryProps> = ({ category }) => {
         <h1>{category.title}</h1>
         <category.icon className="category-icon" />
       </div>
-      {isCategoryOpen && (
+      {isCategoryOpen ? (
         <div className="category-elements">
           {category.items.map((element, index) => (
             <CategoryElement key={index} element={element} />
           ))}
         </div>
-      )}
+      ) : null}
     </CategoryContainer>
   );
 };
