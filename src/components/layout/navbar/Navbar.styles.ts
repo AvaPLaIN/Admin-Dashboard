@@ -1,0 +1,14 @@
+import styled from "styled-components";
+
+export const NavbarContainer = styled.div`
+  flex: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: clamp(6rem, 10vh, 10rem);
+
+  border-bottom: 1px solid black;
+`;

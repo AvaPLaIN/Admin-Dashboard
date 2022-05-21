@@ -8,11 +8,14 @@ const DarkTheme = {
   },
   font: {
     main: "#fff",
-    secondary: "#ccc",
-    tertiary: "#888",
+    secondary: "#888",
   },
   theme: {
     main: "purple",
+  },
+  shadows: {
+    main: "0px 0px 10px rgba(0, 0, 0, 0.2)",
+    secondary: "0px 0px 10px rgba(0, 0, 0, 0.3)",
   },
 };
 

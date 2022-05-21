@@ -14,3 +14,4 @@ https://ava-theming-styled-components.vercel.app
 
 - add multiple theme colors: purple, blue, red, ... for highlighting important elements
 - add custom theme pallets: saved in DB or Local Storage
+- add layout components with themes
